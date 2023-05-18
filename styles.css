@@ -1,0 +1,526 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+header{
+
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/hero-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* header section */
+
+.logo{
+    height: 7rem;
+    padding-bottom: 10px;
+}
+
+.navcon{
+    background-color: black;
+    height: 100px;
+    
+}
+
+
+
+.nav-item{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #F2D388;
+    font-weight: bold;
+}
+
+
+ul .dropdown .btn{
+    color: grey;
+    background-color: rgba(20, 20, 20, 0.095);
+    border: none;
+    font-size: 18px;
+    border-radius: 0%;
+}
+
+ul .dropdown .btn:hover{
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+}
+
+ul .dropdown .login-btn{
+    color: #F2D388;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+    border-radius: 0%;
+    
+}
+
+ul .dropdown .login-btn:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+
+
+form .nav-link{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+
+form .nav-link:hover{
+    color: #999998;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+}
+
+
+
+
+
+.header-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    color: white;
+    padding-top: 250px;
+}
+
+.header-text a{
+    text-decoration: none;
+    color: #F2D388;
+    border: 1px;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+    
+}
+
+.header-text a:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+}
+
+.headermain{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+/* new arrivals section */
+
+.card-group {
+    position: relative;
+    text-align: center;
+    
+  }
+
+.card-title{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-text {
+    position: absolute;
+    bottom: 10%;
+    background-color: rgba(60, 4, 4, 0.504);
+  }
+
+  .card-img-overlay{
+    margin-right: 20px;
+  }
+
+  .card-img-top{
+    height: 30rem;
+    width: 100%;
+  }
+
+  .card a{
+    text-decoration: none;
+    color: #F2D388;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+  }
+
+  .card a:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+  }
+
+
+
+  /* Trust us section */
+
+.trust-head{
+    border: #555 solid 5px;
+    padding: 30px;
+    background-color: #F0EEED;
+}
+
+
+.trust-container img{
+    height: 400px;
+    width: 350px;
+    border-radius: 5%;
+    margin-left: 30px;  
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.content{
+    margin-top: 70px;
+}
+
+.trust-link a{
+    text-decoration: none;
+    color: #F2D388;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+}
+.trust-link a:hover{
+    border-color: red;
+}
+
+
+
+
+/* testimonials */
+.client-section .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+}
+.client-section .box .img-container{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+}
+.client-section .box .img-container .img-box{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-right: -1px;
+}
+.client-section .box .img-container .img-box .img-box-inner{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.client-section .box .img-container .img-box .img-box-inner img{
+    width: 100%;
+}
+.client-section .box .detail-box{
+    margin-top: 25px;
+}
+.client-section .box .detail-box h5{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.client-section .box .detail-box h6{
+    font-size: 15px;
+    color: #999998;
+}
+.client-section .box .detail-box p{
+    
+    max-width: 800px;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+
+/* footer section */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+
+
+
+
+
+  /* -------------------------ABOUT US PAGE---------------------- */
+
+.talk-logo{
+    padding-left: 120px;
+    height: 90%;
+    width: 90%;
+    border-left: #a09696 solid 1px;
+}
+
+.aboutUs-details {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 5%;
+    }
+
+.about-text{
+    font-size: 20px;    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.about-img{
+    height: 400px;
+    width: 400px;   
+}
+
+.contactUs a{
+    text-decoration: none;
+    color: #F2D388;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+}
+
+.contactUs a:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+}
+
+.Contact{
+    background-color: #F0EEED;
+}
+
+
+/* -------------faq section-------------*/
+
+
+
+.faq-header{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/FAQ.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.faq-details{
+    text-align: center;
+    
+}
+
+.banner1{
+    height: 100%;
+    width: 350px;
+    
+}
+
+#accordion{
+    width: 80%;
+    text-align: center;
+    
+}
+
+.faq-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    
+}
+
+.faq-link:hover{
+    color: black;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+    border-radius: 0%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------Login/Registration------------------------- */
+
+
+
+.login-btn a{
+    text-decoration: none;
+    color: #F2D388;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+}
+
+.login-btn a:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+}
+
+.Login-form{
+    background-color:rgba(255, 255, 255, 0.086);
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 575.98px){
+    
+
+    .trust-left{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    
+
+
+/* -------about page----------*/
+
+
+.about-text{
+    font-size: 15%;    
+    
+}
+
+
+
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    
+
+    .card-title{
+        padding-bottom: 80px;
+        
+      }
+
+
+    .content{
+        margin-left: 60px;
+    }
+
+
+
+
+
+
+
+    /* -------about page-------- */
+    .about-img{
+        margin-left: 50px; 
+    }
+
+    .about-text{
+        font-size: 95%;  
+         
+        
+    }
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 991.98px) {
+
+
+    /* ---------about page--------- */
+    .about-text{
+        font-size: 95%;
+        padding-top: 80px;    
+        
+    }
+    
+
+    
+
+
+}
