@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>About Us Page</title>
 </head>
-<body class="Contact">
+<body class="Contact bg-body-secondary">
 
     <!--navigation-->
     <header>
         <div class="container-fluid navcon">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark mb-5">
+                <nav class="navbar navbar-expand-md navbar-dark mb-5">
                     <div class="container">
                         <img src="images/logo.png" alt="logo" class="img-fluid logo"/>
                         
@@ -39,22 +39,43 @@
                                 </li>
                             </ul>
 
-                            <div>
-                                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="login.html">Login</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="login.html">Register</a>
-                                    </li>
-                                </ul>
-                            </div>
-
                             <form class="d-flex search mb-3 ms-2" role="search">
-                            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
-                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-search"></i></a>
+                              <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                              <a class="nav-link" aria-current="page" href="#"><i class="bi bi-search"></i></a>
                             </form>
+
+                          <div>
+                            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="login.html">Register</a>
+                                </li>
+                            <div class="dropdown">
+                              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                LOGIN
+                              </button>
+                              <form class="dropdown-menu p-4">
+                                <div class="mb-3">
+                                  <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                                </div>
+                                <div class="mb-3">
+                                  <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                    <label class="form-check-label" for="dropdownCheck2">
+                                      Remember me
+                                    </label>
+                                  </div>
+                                </div>
+                                <button type="submit" class="btn login-btn btn-primary">Sign in</button>
+                              </form>
+                            </div>
+                          </ul>
                         </div>
+                      </div>
                     </div>
                 </nav>
             </div>
@@ -77,14 +98,14 @@
         <div class="sub-container">
             
             <div class="row">
-                <div class="col-sm-3 col-md-5 ">
+                <div class="col-sm-3 col-md-5  col-lg-5">
                     <div class='aboutUs-details'>
                         <div>
                             <img src="images/trustUs.jpg" alt="trustUs" class="about-img mt-4">
                         </div>
                     </div> 
                 </div>  
-                <div class="col-sm-9 col-md-6 ">
+                <div class="col-sm-9 col-md-7 col-lg-7 ">
                     <div class="about-text mt-3">
 
                         <h1>ALAHAS</h1>
