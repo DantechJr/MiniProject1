@@ -33,7 +33,6 @@ header{
 }
 
 
-
 .nav-item{
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -99,8 +98,6 @@ form .nav-link:hover{
 
 
 
-
-
 .header-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: transparent;
@@ -135,7 +132,6 @@ form .nav-link:hover{
 
 
 
-
 /* new arrivals section */
 
 .card-group {
@@ -152,8 +148,6 @@ form .nav-link:hover{
   .card-text {
     background-color: rgba(60, 4, 4, 0.504);
   }
-
-
 
 
   .card-img-top{
@@ -214,7 +208,6 @@ form .nav-link:hover{
 .trust-link a:hover{
     border-color: red;
 }
-
 
 
 
@@ -286,9 +279,6 @@ form .nav-link:hover{
 
 
 
-
-
-
   /* -------------------------ABOUT US PAGE---------------------- */
 
 .talk-logo{
@@ -338,7 +328,6 @@ form .nav-link:hover{
 /* -------------faq section-------------*/
 
 
-
 .faq-header{
     min-height: 100vh;
     min-width: 100vh;
@@ -378,31 +367,8 @@ form .nav-link:hover{
     border-bottom: 2px solid #F2D388;
     border-top: 2px solid #F2D388;
     background-color: rgba(60, 4, 4, 0.504);
-    border-radius: 0%;
-    
+    border-radius: 0%;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -438,118 +404,18 @@ form .nav-link:hover{
 
 
 
-@media(min-width: 575.98px){
-    
-
-    .navcon .navbar{
-       
-    }
-
-    .trust-left{
-        
-        
-        
-        
-    }
-
-    
-
-
-/* -------about page----------*/
-
-
-.about-text{
-    /* font-size: 15%;     */
-    
-}
-
-
+/* @media(min-width: 575.98px){
 
 }
-
-
-
 
 @media (min-width: 768px) {
-  
-
-
-    /* -------about page-------- */
-    /* .about-img{
-        margin-left: 50px; 
-    }
-
-    .about-text{
-        font-size: 95%;  
-         
-        
-    } */
-    
-
-
+ 
 
 }
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 991.98px) {
 
-    /*------index-------*/
-
-   /* .card-title{
-    top: 300px;
-   }
-
-    .content{
-        padding-left: 50px;
-    } */
-
-
-
-
-    /* ---index about--- */
-    /* .trust-left{
-        padding-left: 70px;
-        margin-top: 50px;
-    } */
-
-    .content{
-       /* margin-left: 150px; */
-       /* margin-bottom: 50px; */
-       
-    }
-
-
-
-
-
-
-
-
-
-    
-    /* ---------about page--------- */
-    /* .about-text{
-        font-size: 95%;
-        padding-top: 80px;    
-        
-    } */
-    
-
-    
-
-
-}
-
-
+} */
 
 
 @media (min-width: 1200px) {
@@ -563,6 +429,5 @@ form .nav-link:hover{
     .trust-left{
         margin-left: 80px;
     }
-
-   
+ 
 }
