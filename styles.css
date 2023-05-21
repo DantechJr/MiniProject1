@@ -794,13 +794,76 @@ form .nav-link:hover{
 
 
 
+/* ----------------------------Checkout Page------------------------ */
+
+.checkout-header{
+    background-color: white;
+    
+}
+
+
+
+  .checkout-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d9d6d6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .check-form {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+ .input-select-checkout[type="text"],
+  .input-select-checkout[type="email"],
+  .input-select-checkout {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .check-btn {
+    background-color: #999;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .check-btn:hover {
+    background-color: #F2D388;
+    color: black;
+  }
+
+
+  .right-check{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d9d6d6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+
 /* -----------------------Registration Page------------------------- */
 
-.reg-header{
-    min-height: 68vh;
+.reg-body{
     background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/hero-banner.jpg);
     background-position: center;
     background-size: cover;
+    
 }
 
 .register-left{
