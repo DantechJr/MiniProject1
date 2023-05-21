@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Shop Page</title>
+</head>
+<body class="bg-body-secondary">
+
+    <!--navigation-->
+    <header id="home" class="earring-header">
+        <div class="container-fluid navcon">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-dark mb-5">
+                    <div class="container">
+                        <img src="images/logo.png" alt="logo" class="img-fluid logo"/>
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 ps-5">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="about.html">About</a>
+                                </li>
+                                <div class="dropdown faq-drop">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle fs-4" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                      FAQ
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                      <li><a class="dropdown-item" href="tnc.html">Terms and Conditons</a></li>
+                                      <li><a class="dropdown-item" href="pp.html">Privacy Policy</a></li>
+                                    </ul>
+                                  </div>
+                            </ul>
+
+                            
+                            <!----------------Search--------------->
+                            <div class="btn-group dropdown">
+                              <button type="button" class="btn btn-secondary nav-search-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-search"></i>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <input type="search" placeholder="Search Here" class="nav-search">
+                              </ul>
+                            </div>
+
+                            <!-------User Login/Register--------->
+                          <div>
+                            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                            <div class="dropdown user-dropdown">
+                              <button type="button" class="btn btn-primary dropdown-toggle user-icon" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                <i class="bi bi-person-fill"></i>
+                              </button>
+                              <form class="dropdown-menu user-dropdown-menu p-4">
+                                <div class="mb-3">
+                                  <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                                </div>
+                                <div class="mb-3">
+                                  <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                    <label class="form-check-label" for="dropdownCheck2">
+                                      Remember me
+                                    </label>
+                                  </div>
+                                </div>
+
+                                <button type="submit" class="btn login-btn btn-primary">Sign in</button>
+                                <div class="text-center">
+                                <h5>Dont Have Account yet?</h5>
+                                <a href="register.html"> Sign up now!</a>
+                                </div>
+
+                              </form>
+                            </div>
+                          </ul>
+                        </div>
+
+                        <!----------Cart--------------------->
+                        <div class="cart-icon">
+                          <a href="#"><i class="bi bi-cart4 ms-2"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--navigation end-->
+
+
+
+        <!--hero section-->
+
+        <div class="row">
+          <div class="container sm-12 mb-5 hero">
+              <div class="header-text">
+                  <div class="container text-center">
+                    <div class="col-sm-12">
+                      <div class="headermain">One Million Stars. <br> One Spectacular place to find</div>
+                    </div>
+                    <div class="col-sm-12">
+                      <p class="text-center">Unique handcrafted on the beautiful island of the philippines using fine materials and precious stones.</p>
+                    </div>
+                    <div class="col-sm-12">
+                      <a href="shop.html" class="p-1">SHOP NOW</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div> 
+    </header>
+
+
+    <!-----gallery section----->
+    <div class="container mt-5">
+        <div class="row">
+          <h3 class="col-12 text-center">CATEGORIES</h3>
+                <div class="row shop-categories text-center mt-3">
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="rings.html">Rings</a></h5>
+                  </div>
+    
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="necklace.html">Necklace</a></h5>
+                  </div>
+    
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="earrings.html">Earrings</a></h5>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="bracelets.html">Bracelets</a></h5>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="wedding.html">Wedding</a></h5>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="sets.html">Jewelry Sets</a></h5>
+                  </div>
+
+                </div>  
+                  
+          </div> 
+          <hr>            
+    </div>
+
+          <div class="container">
+                <div class="row mb-3">
+                      <h1 class="text-center mt-5">Earrings</h1>
+                        <div class="shop-card col-sm-12 col-md-4 col-lg-3 mt-3 bg-light">
+                            <img src="images/earrings.jpg" class="card-img-top my-3" alt="...">
+                            <div class="shop-card-body mb-3">
+                            <h5 class="shop-card-title"><strong>Gold & Diamond Earrings</strong></h5>
+                            <p class="shop-card-text">&#8369 42,000.00</p>
+                            <a href="#" class="mb-3">Buy Now</a>
+                            <a href="#">Details</a>
+                            <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="shop-card col-sm-12 col-md-4 col-lg-3 mt-3 bg-light">
+                            <img src="images/earring2.jpg" class="card-img-top my-3" alt="...">
+                            <div class="shop-card-body mb-3">
+                            <h5 class="shop-card-title"><strong>Silver Gold Earrings</strong></h5>
+                            <p class="shop-card-text">&#8369 57,000.00</p>
+                            <a href="#" class="mb-3">Buy Now</a>
+                            <a href="#">Details</a>
+                            <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="shop-card col-sm-12 col-md-4 col-lg-3 mt-3 bg-light">
+                            <img src="images/earring3.jpg" class="card-img-top my-3" alt="...">
+                            <div class="shop-card-body mb-3">
+                            <h5 class="shop-card-title"><strong>Blue Heart</strong></h5>
+                            <p class="shop-card-text">&#8369 62,000.00</p>
+                            <a href="#" class="# mb-3">Buy Now</a>
+                            <a href="#">Details</a>
+                            <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="shop-card d-none d-lg-block col-sm-12 col-md-3 col-lg-3 mt-3 bg-light">
+                          <img src="images/earring4.jpg" class="card-img-top my-3" alt="...">
+                          <div class="shop-card-body mb-3">
+                          <h5 class="shop-card-title"><strong>Diamond Studs</strong></h5>
+                          <p class="shop-card-text">&#8369 75,000.00</p>
+                          <a href="#" class="mb-3">Buy Now</a>
+                          <a href="#">Details</a>
+                          <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                          </div>
+                      </div>
+                </div>
+
+                    <div class="row mb-3">
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                                <img src="images/earring5.jpg" class="card-img-top my-3" alt="...">
+                                <div class="shop-card-body mb-3">
+                                <h5 class="shop-card-title"><strong>Pearl Earrings</strong></h5>
+                                <p class="shop-card-text">&#8369 45,000.00</p>
+                                <a href="#" class="mb-3">Buy Now</a>
+                                <a href="#">Details</a>
+                                <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                                <img src="images/earring6.jpg" class="card-img-top my-3" alt="...">
+                                <div class="shop-card-body mb-3">
+                                <h5 class="shop-card-title"><strong>Gold Start Loop</strong></h5>
+                                <p class="shop-card-text">&#8369 59,000.00</p>
+                                <a href="#" class="mb-3">Buy Now</a>
+                                <a href="#">Details</a>
+                                <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                                <img src="images/earring7.jpg" class="card-img-top my-3" alt="...">
+                                <div class="shop-card-body mb-3">
+                                <h5 class="shop-card-title"><strong>Gold Earrings</strong></h5>
+                                <p class="shop-card-text">&#8369 48,000.00</p>
+                                <a href="#" class="mb-3">Buy Now</a>
+                                <a href="#">Details</a>
+                                <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                              <img src="images/earring8.jpg" class="card-img-top my-3" alt="...">
+                              <div class="shop-card-body mb-3">
+                              <h5 class="shop-card-title"><strong>Opal Gold Earrings</strong></h5>
+                              <p class="shop-card-text">&#8369 49,800.00</p>
+                              <a href="#" class="mb-3">Buy Now</a>
+                              <a href="#">Details</a>
+                              <a href="#" class="mb-3"><i class="bi bi-bag-plus"></i></a>
+                              </div>
+                          </div>
+                    </div>
+          </div>
+                
+            
+        
+   
+    <br>
+    
+    <!----------Promo Banner Horizontal--------->
+    <div class="container-fluid">
+      <div class="row hr-banner-promo text-center px-5">
+          
+          <div class="row">              
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-truck"></i>
+                  <br>
+                  <p>Free Shipping On <br> Order Over $75</p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-box-seam"></i>
+                  <br>
+                  <p>Free 30-Day Returns <br><a href="shop.html">Shop Now</a></p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-shield-check"></i>
+                  <br>
+                  <p>2-Year Warranty <br><a href="shop.html">SHop Now</a></p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-credit-card-fill"></i>
+                  <br>
+                  <p>Shop Now, Pay Later <br> With Utang Program</p>
+              </div>
+          </div> 
+      </div>
+    </div>
+    
+    
+
+    <!------------------------chatbot----------------->
+    <div class="dropdown">
+        
+      <a  type="button" class="btn chat-bot dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+        <i class="bi bi-robot my-float"></i>
+      </a>
+
+      <form class="dropdown-menu p-4">
+
+        <div class="text-center">
+          <img src="images/logo.png" alt="logo">
+          <h5>Our team is Offline at this time!</h5>
+          <hr>
+        </div>
+
+        <div class="mb-5 chatbot-input-text">
+          <a href="#"><i class="bi bi-paperclip"></i><i class="bi bi-emoji-smile-fill"></i><input type="text" class="chatbot-input text-center" placeholder="Leave a message"><i class="bi bi-send"></i></a>
+        </div>
+
+      </form>
+    </div>
+
+
+    <!----------back top button-------->
+
+    <div class="row">
+        <div class="col container back-top">
+        <a href="#home">top<i class="bi bi-arrow-up-circle-fill"></i></a>
+        </div>
+    </div>
+
+    <!-----------------footer-------------------->
+    <footer class="footer bg-dark text-light">
+        <div class="row">
+  
+          <div class="col-sm-12 col-md-4 footer-col">
+            <img src="images/logo.png" alt="">
+  
+          </div>
+  
+          <div class="col-sm-12 col-md-4 footer-col mt-2">
+            <div class="container">
+              <span>&copy; 2023 ALAHAS Online Shop. All rights reserved.</span>
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-4 footer-col mt-3">
+            <a href="#"><i class="bi bi-facebook"></i></a> &nbsp
+            <a href="#"><i class="bi bi-instagram"></i></a> &nbsp
+            <a href="#"><i class="bi bi-pinterest"></i></a> &nbsp
+            <a href="#"><i class="bi bi-twitter"></i></a> &nbsp
+          </div>
+  
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

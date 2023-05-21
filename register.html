@@ -12,6 +12,7 @@
 </head>
 <body>
 
+  <!--------------------------navigation---------------------->
     <div class="container-fluid navcon" id="home">
         <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container">
@@ -46,7 +47,7 @@
                     </ul>
 
                     
-
+                    <!---------------------Search---------------------->
                     <div class="btn-group dropdown">
                       <button type="button" class="btn btn-secondary nav-search-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="bi bi-search"></i>
@@ -56,58 +57,61 @@
                       </ul>
                     </div>
 
-                  <div>
-                    <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                    <div class="dropdown user-dropdown">
-                      <button type="button" class="btn btn-primary dropdown-toggle user-icon" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                        <i class="bi bi-person-fill"></i>
-                      </button>
-                      <form class="dropdown-menu user-dropdown-menu p-4">
-                        <div class="mb-3">
-                          <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-                        </div>
-                        <div class="mb-3">
-                          <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                            <label class="form-check-label" for="dropdownCheck2">
-                              Remember me
-                            </label>
+                    <!----------------User Login/Register-------------->
+                    <div>
+                      <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                      <div class="dropdown user-dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle user-icon" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                          <i class="bi bi-person-fill"></i>
+                        </button>
+                        <form class="dropdown-menu user-dropdown-menu p-4">
+                          <div class="mb-3">
+                            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
                           </div>
-                        </div>
+                          <div class="mb-3">
+                            <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                          </div>
+                          <div class="mb-3">
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                              <label class="form-check-label" for="dropdownCheck2">
+                                Remember me
+                              </label>
+                            </div>
+                          </div>
 
-                        <button type="submit" class="btn login-btn btn-primary">Sign in</button>
-                        
-                        <div class="text-center dropdown-signup">
-                          <h5>Dont Have Account yet?</h5>
-                          <a href="register.html">Sign up now!</a>
-                        </div>
+                          <button type="submit" class="btn login-btn btn-primary">Sign in</button>
+                          
+                          <div class="text-center dropdown-signup">
+                            <h5>Dont Have Account yet?</h5>
+                            <a href="register.html">Sign up now!</a>
+                          </div>
 
-                      </form>
+                        </form>
+                      </div>
+                    </ul>
                     </div>
-                  </ul>
-                </div>
-
-                <div class="cart-icon">
-                  <a href="#"><i class="bi bi-cart4 ms-2"></i></a>
-                </div>
+                
+                    <!--------------------Cart------------------------->
+                    <div class="cart-icon">
+                      <a href="#"><i class="bi bi-cart4 ms-2"></i></a>
+                    </div>
 
               </div>
             </div>
         </nav>
     </div>
 
-    <header>
-        <div class="container-fluid">
-            <div class="container">
+
+    <!------------Registration form---------------------->
+    <header class="reg-header">      
                 <div class="container pt-5 text-light">
+
                     <div class="row">
 
-                        <div class="col-md-6 register-left">
+                        <div class="col-sm-12 col-md-6 register-left">
                             <h3 class="text-center">"Unlock Your Style with Alahas Online Shop - Where Jewelry Dreams Come True!"</h3>
                             <div class="container text-center">
                                 <img src="images/logo.png" alt="logo">
@@ -116,7 +120,7 @@
 
           <!---------------Registration form--------------->
 
-                        <div class="col-md-6 register-right">
+                        <div class="col-sm-12 col-md-6 mb-4 register-right">
                             <h1 class="">Register Now!</h1>
                             <form>
                             <div class="form-group">
@@ -148,65 +152,88 @@
 
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    
-
-
-
-
-
-
-
-    <!------------------------chatbot----------------->
-      <div class="dropdown">
+           
         
-        <a  type="button" class="btn chat-bot dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-          <i class="bi bi-robot my-float"></i>
-        </a>
+    </header>   
 
-        <form class="dropdown-menu p-4">
+  <!------------------------chatbot--------------------------->
+    <div class="dropdown">
+      
+      <a  type="button" class="btn chat-bot dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+        <i class="bi bi-robot my-float"></i>
+      </a>
 
-          <div class="text-center">
-            <img src="images/logo.png" alt="logo">
-            <h5>Our team is Offline at this time!</h5>
-            <hr>
-          </div>
+      <form class="dropdown-menu p-4">
 
-          <div class="mb-5 chatbot-input-text">
-            <a href="#"><i class="bi bi-paperclip"></i><i class="bi bi-emoji-smile-fill"></i><input type="text" class="chatbot-input text-center" placeholder="Leave a message"><i class="bi bi-send"></i></a>
-          </div>
-
-        </form>
-      </div>
-
-      <!---------back to top------------>
-      <div class="row">
-        <div class="col container back-top">
-          <a href="#home">top<i class="bi bi-arrow-up-circle-fill"></i></a>
+        <div class="text-center">
+          <img src="images/logo.png" alt="logo">
+          <h5>Our team is Offline at this time!</h5>
+          <hr>
         </div>
+
+        <div class="mb-5 chatbot-input-text">
+          <a href="#"><i class="bi bi-paperclip"></i><i class="bi bi-emoji-smile-fill"></i><input type="text" class="chatbot-input text-center" placeholder="Leave a message"><i class="bi bi-send"></i></a>
+        </div>
+
+      </form>
+    </div>
+
+    <!---------------------back to top------------------------->
+    <div class="row">
+      <div class="col container back-top">
+        <a href="#home">top<i class="bi bi-arrow-up-circle-fill"></i></a>
       </div>
+    </div>
+
+    <!----------Promo Banner Horizontal--------->
+    <div class="container-fluid">
+      <div class="row hr-banner-promo text-center px-5">
+          
+          <div class="row">              
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-truck"></i>
+                  <br>
+                  <p>Free Shipping On <br> Order Over $75</p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-box-seam"></i>
+                  <br>
+                  <p>Free 30-Day Returns <br><a href="shop.html">Shop Now</a></p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-shield-check"></i>
+                  <br>
+                  <p>2-Year Warranty <br><a href="shop.html">SHop Now</a></p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-credit-card-fill"></i>
+                  <br>
+                  <p>Shop Now, Pay Later <br> With Utang Program</p>
+              </div>
+          </div> 
+      </div>
+    </div>
 
 
-
-    <!---------------footer---------------------------->
+    <!-----------------------footer---------------------------->
     <footer class="footer bg-dark text-light">
       <div class="row">
 
-        <div class="col-4 footer-col">
+        <div class="col-sm-12 col-md-4 footer-col">
           <img src="images/logo.png" alt="">
 
         </div>
 
-        <div class="col-4 footer-col mt-4">
+        <div class="col-sm-12 col-md-4 footer-col mt-2">
           <div class="container">
             <span>&copy; 2023 ALAHAS Online Shop. All rights reserved.</span>
           </div>
         </div>
 
-        <div class="col-4 footer-col mt-3">
+        <div class="col-sm-12 col-md-4 footer-col mt-3">
           <a href="#"><i class="bi bi-facebook"></i></a> &nbsp
           <a href="#"><i class="bi bi-instagram"></i></a> &nbsp
           <a href="#"><i class="bi bi-pinterest"></i></a> &nbsp

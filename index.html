@@ -14,31 +14,30 @@
 </head>
 
 <body>
-    <!------------------navigation start---------------->
-    <header id="home">
-        <div class="container-fluid navcon">
-            <div class="container">
-                <nav class="navbar navbar-expand-md navbar-dark mb-5">
-                    <div class="container">
-                        <img src="images/logo.png" alt="logo" class="img-fluid logo"/>
-                        
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+    <!--navigation-->
+    <header id="home" class="home-header">
+      <div class="container-fluid navcon">
+          <div class="container">
+              <nav class="navbar navbar-expand-md navbar-dark mb-5">
+                  <div class="container">
+                      <img src="images/logo.png" alt="logo" class="img-fluid logo"/>
+                      
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 ps-5">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="about.html">About</a>
-                                </li>
-
-                                <div class="dropdown faq-drop">
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 ps-5">
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="about.html">About</a>
+                              </li>
+                              <div class="dropdown faq-drop">
                                   <button type="button" class="btn btn-secondary dropdown-toggle fs-4" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
                                     FAQ
                                   </button>
@@ -48,88 +47,89 @@
                                     <li><a class="dropdown-item" href="pp.html">Privacy Policy</a></li>
                                   </ul>
                                 </div>
-                            </ul>
-
-                            
-
-                            <div class="btn-group dropdown">
-                              <button type="button" class="btn btn-secondary nav-search-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-search"></i>
-                              </button>
-                              <ul class="dropdown-menu">
-                                <input type="search" placeholder="Search Here" class="nav-search">
-                              </ul>
-                            </div>
-
-                          <div>
-                            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                            <div class="dropdown user-dropdown">
-                              <button type="button" class="btn btn-primary dropdown-toggle user-icon" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                                <i class="bi bi-person-fill"></i>
-                              </button>
-                              <form class="dropdown-menu user-dropdown-menu p-4">
-                                <div class="mb-3">
-                                  <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
-                                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-                                </div>
-                                <div class="mb-3">
-                                  <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
-                                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-                                </div>
-                                <div class="mb-3">
-                                  <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                                    <label class="form-check-label" for="dropdownCheck2">
-                                      Remember me
-                                    </label>
-                                  </div>
-                                </div>
-
-                                <button type="submit" class="btn login-btn btn-primary">Sign in</button>
-                                
-                                <div class="text-center dropdown-signup">
-                                  <h5>Dont Have Account yet?</h5>
-                                  <a href="register.html">Sign up now!</a>
-                                </div>
-
-                              </form>
-                            </div>
                           </ul>
-                        </div>
 
-                        <div class="cart-icon">
-                          <a href="#"><i class="bi bi-cart4 ms-2"></i></a>
-                        </div>
+                          
+                          <!----------------Search--------------->
+                          <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-secondary nav-search-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-search"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <input type="search" placeholder="Search Here" class="nav-search">
+                            </ul>
+                          </div>
 
+                          <!-------User Login/Register--------->
+                        <div>
+                          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                          <div class="dropdown user-dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle user-icon" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                              <i class="bi bi-person-fill"></i>
+                            </button>
+                            <form class="dropdown-menu user-dropdown-menu p-4">
+                              <div class="mb-3">
+                                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                              </div>
+                              <div class="mb-3">
+                                <div class="form-check">
+                                  <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                  <label class="form-check-label" for="dropdownCheck2">
+                                    Remember me
+                                  </label>
+                                </div>
+                              </div>
+
+                              <button type="submit" class="btn login-btn btn-primary">Sign in</button>
+                              <div class="text-center">
+                              <h5>Dont Have Account yet?</h5>
+                              <a href="register.html"> Sign up now!</a>
+                              </div>
+
+                            </form>
+                          </div>
+                        </ul>
                       </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!--navigation end-->
 
+                      <!----------Cart--------------------->
+                      <div class="cart-icon">
+                        <a href="#"><i class="bi bi-cart4 ms-2"></i></a>
+                      </div>
 
-
-        <!--hero section-->
-
-        <div class="row">
-          <div class="container sm-12 mb-5 hero">
-              <div class="header-text">
-                  <div class="container text-center">
-                    <div class="col-sm-12">
-                      <div class="headermain">One Million Stars. <br> One Spectacular place to find</div>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="text-center">Unique handcrafted on the beautiful island of the philippines using fine materials and precious stones.</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <a href="#" class="p-1">SHOP NOW</a>
                     </div>
                   </div>
-              </div>
+              </nav>
           </div>
-      </div> 
-    </header>
+      </div>
+      <!--navigation end-->
+
+
+
+      <!--hero section-->
+
+      <div class="row">
+        <div class="container sm-12 mb-5 hero">
+            <div class="header-text">
+                <div class="container text-center">
+                  <div class="col-sm-12">
+                    <div class="headermain">One Million Stars. <br> One Spectacular place to find</div>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class="text-center">Unique handcrafted on the beautiful island of the philippines using fine materials and precious stones.</p>
+                  </div>
+                  <div class="col-sm-12">
+                    <a href="shop.html" class="p-1">SHOP NOW</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+  </header>
 
 
     
@@ -185,8 +185,44 @@
 
 
 
+
+    <!----------Promo Banner Horizontal--------->
+    <div class="container-fluid">
+      <div class="row hr-banner-promo text-center px-5">
+          
+          <div class="row">              
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-truck"></i>
+                  <br>
+                  <p>Free Shipping On <br> Order Over $75</p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-box-seam"></i>
+                  <br>
+                  <p>Free 30-Day Returns <br><a href="shop.html">Shop Now</a></p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-shield-check"></i>
+                  <br>
+                  <p>2-Year Warranty <br><a href="shop.html">SHop Now</a></p>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-credit-card-fill"></i>
+                  <br>
+                  <p>Shop Now, Pay Later <br> With Utang Program</p>
+              </div>
+          </div> 
+      </div>
+    </div>
+
+
+
+
     <!--------------------About Us section------------->
-    <div class="container trust-head">
+    <div class="container trust-head mt-3">
         <h1 class="text-center">FILIPINO ACCESORIES</h1>
         <div class="trust-container">
 
@@ -331,7 +367,7 @@
 
         </div>
 
-        <div class="col-sm-12 col-md-4 footer-col mt-4">
+        <div class="col-sm-12 col-md-4 footer-col mt-2">
           <div class="container">
             <span>&copy; 2023 ALAHAS Online Shop. All rights reserved.</span>
           </div>

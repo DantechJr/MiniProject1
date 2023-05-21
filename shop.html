@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles.css">
     <title>Shop Page</title>
 </head>
-<body>
+<body class="bg-body-secondary">
 
     <!--navigation-->
-    <header id="home">
+    <header id="home" class="shop-header">
         <div class="container-fluid navcon">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-dark mb-5">
@@ -48,7 +48,7 @@
                             </ul>
 
                             
-
+                            <!----------------Search--------------->
                             <div class="btn-group dropdown">
                               <button type="button" class="btn btn-secondary nav-search-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="bi bi-search"></i>
@@ -58,6 +58,7 @@
                               </ul>
                             </div>
 
+                            <!-------User Login/Register--------->
                           <div>
                             <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
                             <div class="dropdown user-dropdown">
@@ -85,7 +86,7 @@
                                 <button type="submit" class="btn login-btn btn-primary">Sign in</button>
                                 <div class="text-center">
                                 <h5>Dont Have Account yet?</h5>
-                                <a href="#"> Sign up now!</a>
+                                <a href="register.html"> Sign up now!</a>
                                 </div>
 
                               </form>
@@ -93,6 +94,7 @@
                           </ul>
                         </div>
 
+                        <!----------Cart--------------------->
                         <div class="cart-icon">
                           <a href="#"><i class="bi bi-cart4 ms-2"></i></a>
                         </div>
@@ -119,7 +121,7 @@
                       <p class="text-center">Unique handcrafted on the beautiful island of the philippines using fine materials and precious stones.</p>
                     </div>
                     <div class="col-sm-12">
-                      <a href="#" class="p-1">SHOP NOW</a>
+                      <a href="shop.html" class="p-1">SHOP NOW</a>
                     </div>
                   </div>
               </div>
@@ -131,124 +133,161 @@
     <!-----gallery section----->
     <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-2 left-panel bg-body-secondary">
-                <h5>CATEGORIES</h5>
-                
-                <hr>
+          <h3 class="col-12 text-center">CATEGORIES</h3>
+                <div class="row shop-categories text-center mt-3">
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="rings.html">Rings</a></h5>
+                  </div>
+    
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="necklace.html">Necklace</a></h5>
+                  </div>
+    
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="earrings.html">Earrings</a></h5>
+                  </div>
 
-                <ul>
-                    <li><a href="#">RINGS</a></li>
-                    <li><a href="#">NECKLACE</a></li>
-                    <li><a href="#">EARRINGS</a></li>
-                    <li><a href="#">BRACELETS</a></li>
-                    <li><a href="#">WEDDING</a></li>
-                </ul>
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="bracelets.html">Bracelets</a></h5>
+                  </div>
 
-                <img src="images/banner2.png" alt="">
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="wedding.html">Wedding</a></h5>
+                  </div>
 
-                <hr>
+                  <div class="col-sm-6 col-lg-2">
+                    <h5><a href="sets.html">Jewelry Sets</a></h5>
+                  </div>
 
-                <img src="images/banner1.png" alt="">
-                
-            </div>
-
-            <div class="col-lg-10 right-panel bg-body-tertiary">
-                <h1 class="text-center mt-5">SHOP NOW</h1>
-                
-
-                    <div class="row">
-                        <div class="shop-card col-4 mt-3 bg-light">
-                            <img src="images/earrings.jpg" class="card-img-top my-3" alt="...">
-                            <div class="shop-card-body">
-                            <h5 class="shop-card-title">Card title</h5>
-                            <p class="shop-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="mb-3">Shop Now</a>
-                            </div>
-                        </div>
-
-                        <div class="shop-card col-4 mt-3 bg-light">
-                            <img src="images/rings.jpg" class="card-img-top my-3" alt="...">
-                            <div class="shop-card-body">
-                            <h5 class="shop-card-title">Card title</h5>
-                            <p class="shop-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="mb-3">Shop Now</a>
-                            </div>
-                        </div>
-
-                        <div class="shop-card col-4 mt-3 bg-light">
-                            <img src="images/necklace.jpg" class="card-img-top my-3" alt="...">
-                            <div class="shop-card-body">
-                            <h5 class="shop-card-title">Card title</h5>
-                            <p class="shop-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="# mb-3">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row  mb-5 ">
-                        <div class="shop-card col-4 mt-3 bg-light">
-                            <img src="images/earrings.jpg" class="card-img-top my-3" alt="...">
-                            <div class="shop-card-body">
-                            <h5 class="shop-card-title">Card title</h5>
-                            <p class="shop-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="mb-3">Shop Now</a>
-                            </div>
-                        </div>
-
-                        <div class="shop-card col-4 mt-3 bg-light">
-                            <img src="images/rings.jpg" class="card-img-top my-3" alt="...">
-                            <div class="shop-card-body">
-                            <h5 class="shop-card-title">Card title</h5>
-                            <p class="shop-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="mb-3">Shop Now</a>
-                            </div>
-                        </div>
-
-                        <div class="shop-card col-4 mt-3 bg-light">
-                            <img src="images/necklace.jpg" class="card-img-top my-3" alt="...">
-                            <div class="shop-card-body">
-                            <h5 class="shop-card-title">Card title</h5>
-                            <p class="shop-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="mb-3">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-        </div>
+                </div>  
+                  
+          </div> 
+          <hr>            
     </div>
 
+          <div class="container">
+                <div class="row mb-3">
+                      <h1 class="text-center mt-5">SHOP NOW</h1>
+                        <div class="shop-card col-sm-12 col-md-4 col-lg-3 mt-3 bg-light">
+                            <img src="images/wedding.jpg" class="card-img-top my-3" alt="...">
+                            <div class="shop-card-body mb-3">
+                            <h5 class="shop-card-title">Wedding Rings</h5>
+                            <p class="shop-card-text">"Eternal Love Begins Here - Discover Your Perfect Wedding Ring"</p>
+                            <a href="#" class="mb-3">Buy Now</a>
+                            <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                            </div>
+                        </div>
 
+                        <div class="shop-card col-sm-12 col-md-4 col-lg-3 mt-3 bg-light">
+                            <img src="images/gift.jpg" class="card-img-top my-3" alt="...">
+                            <div class="shop-card-body mb-3">
+                            <h5 class="shop-card-title">Gifts</h5>
+                            <p class="shop-card-text">"Unwrap Joy - Memorable Gifts for Every Occasion"</p>
+                            <a href="#" class="mb-3">Buy Now</a>
+                            <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                            </div>
+                        </div>
 
-    <div class="container-fluid">
-        <div class="row">
+                        <div class="shop-card col-sm-12 col-md-4 col-lg-3 mt-3 bg-light">
+                            <img src="images/bracelet2.jpg" class="card-img-top my-3" alt="...">
+                            <div class="shop-card-body mb-3">
+                            <h5 class="shop-card-title">Bracelet</h5>
+                            <p class="shop-card-text">
+                              "Adorn Your Wrist, Embrace Your Style - Bracelets That Define You"</p>
+                            <a href="#" class="# mb-3">Buy Now</a>
+                            <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="shop-card d-none d-lg-block col-sm-12 col-md-3 col-lg-3 mt-3 bg-light">
+                          <img src="images/earring2.jpg" class="card-img-top my-3" alt="...">
+                          <div class="shop-card-body mb-3">
+                          <h5 class="shop-card-title">Earring</h5>
+                          <p class="shop-card-text">"Dazzle and Delight - Earrings that Sparkle with Elegance"</p>
+                          <a href="#" class="mb-3">Buy Now</a>
+                          <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                          </div>
+                      </div>
+                </div>
+
+                    <div class="row mb-3">
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                                <img src="images/earrings.jpg" class="card-img-top my-3" alt="...">
+                                <div class="shop-card-body mb-3">
+                                <h5 class="shop-card-title">Earrings</h5>
+                                <p class="shop-card-text">"Dazzle and Delight - Earrings that Sparkle with Elegance"</p>
+                                <a href="#" class="mb-3">Buy Now</a>
+                                <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                                <img src="images/rings.jpg" class="card-img-top my-3" alt="...">
+                                <div class="shop-card-body mb-3">
+                                <h5 class="shop-card-title">Rings</h5>
+                                <p class="shop-card-text">"Circle of Forever - Rings that Symbolize Endless Love"</p>
+                                <a href="#" class="mb-3">Buy Now</a>
+                                <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                                <img src="images/necklace.jpg" class="card-img-top my-3" alt="...">
+                                <div class="shop-card-body mb-3">
+                                <h5 class="shop-card-title">Necklace</h5>
+                                <p class="shop-card-text">"Elevate Your Beauty - Necklaces that Illuminate Your Style"</p>
+                                <a href="#" class="mb-3">Buy Now</a>
+                                <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card d-none d-lg-block col-3 mt-3 bg-light">
+                              <img src="images/bracelet.jpg" class="card-img-top my-3" alt="...">
+                              <div class="shop-card-body mb-3">
+                              <h5 class="shop-card-title">Bracelets</h5>
+                              <p class="shop-card-text">"Adorn Your Wrist, Embrace Your Style - Bracelets That Define You"</p>
+                              <a href="#" class="mb-3">Buy Now</a>
+                              <a href="#" class="mb-3"><i class="bi bi-bag-check"></i></a>
+                              </div>
+                          </div>
+                    </div>
+          </div>
+                
             
-            <div class="col hr-banner-promo text-center px-5 py-1">              
-                <div>
-                    <i class="bi bi-truck"></i>
-                    <br>
-                    <h5>Free Shipping On <br> Order Over $75</h5>
-                </div>
+        
+   
+    <br>
+    
+    <!----------Promo Banner Horizontal--------->
+    <div class="container-fluid">
+      <div class="row hr-banner-promo text-center px-5">
+          
+          <div class="row">              
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-truck"></i>
+                  <br>
+                  <p>Free Shipping On <br> Order Over $75</p>
+              </div>
 
-                <div>
-                    <i class="bi bi-box-seam"></i>
-                    <br>
-                    <h5>Free 30-Day Returns</h5>
-                </div>
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-box-seam"></i>
+                  <br>
+                  <p>Free 30-Day Returns <br><a href="shop.html">Shop Now</a></p>
+              </div>
 
-                <div>
-                    <i class="bi bi-shield-check"></i>
-                    <br>
-                    <h5>2-Year Warranty</h5>
-                </div>
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-shield-check"></i>
+                  <br>
+                  <p>2-Year Warranty <br><a href="shop.html">SHop Now</a></p>
+              </div>
 
-                <div>
-                    <i class="bi bi-credit-card-fill"></i>
-                    <br>
-                    <h5>Shop Now, Pay Later <br> With Utang Program</h5>
-                </div>
-            </div> 
-        </div>
+              <div class="d-none d-lg-block col-lg-3 pt-2">
+                  <i class="bi bi-credit-card-fill"></i>
+                  <br>
+                  <p>Shop Now, Pay Later <br> With Utang Program</p>
+              </div>
+          </div> 
+      </div>
     </div>
     
     
@@ -284,22 +323,22 @@
         </div>
     </div>
 
-    <!--footer-->
+    <!-----------------footer-------------------->
     <footer class="footer bg-dark text-light">
         <div class="row">
   
-          <div class="col-4 footer-col">
+          <div class="col-sm-12 col-md-4 footer-col">
             <img src="images/logo.png" alt="">
   
           </div>
   
-          <div class="col-4 footer-col mt-4">
+          <div class="col-sm-12 col-md-4 footer-col mt-2">
             <div class="container">
               <span>&copy; 2023 ALAHAS Online Shop. All rights reserved.</span>
             </div>
           </div>
   
-          <div class="col-4 footer-col mt-3">
+          <div class="col-sm-12 col-md-4 footer-col mt-3">
             <a href="#"><i class="bi bi-facebook"></i></a> &nbsp
             <a href="#"><i class="bi bi-instagram"></i></a> &nbsp
             <a href="#"><i class="bi bi-pinterest"></i></a> &nbsp

@@ -11,7 +11,10 @@ html{
     scroll-behavior: smooth;
 }
 
-header{
+
+/* -------------------Home header section------------------ */
+
+.home-header{
 
     min-height: 100vh;
     background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/hero-banner.jpg);
@@ -19,19 +22,14 @@ header{
     background-size: cover;
 }
 
-/* -------------------header section------------------ */
-
 .logo{
     height: 7rem;
     padding-bottom: 10px;
 }
 
 .navcon{
-    background-color: black;
-   
+    background-color: black; 
 }
-
-
 
 .navbar-nav a{
     font-size: 25px;
@@ -109,6 +107,8 @@ header{
 }
 
 
+
+
 ul .dropdown .btn{
     color: grey;
     background-color: rgba(20, 20, 20, 0.095);
@@ -178,7 +178,7 @@ form .nav-link:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: transparent;
     color: white;
-    padding-top: 250px;
+    padding-top: 180px;
 }
 
 .header-text a{
@@ -197,7 +197,7 @@ form .nav-link:hover{
 }
 
 .headermain{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
     word-spacing: 4px;
@@ -207,7 +207,7 @@ form .nav-link:hover{
 
 
 
-/*----------------------- new arrivals section ------------------------*/
+/*----------------------- Home-new arrivals section ------------------------*/
 
 .card-group {
     text-align: center;   
@@ -229,6 +229,7 @@ form .nav-link:hover{
     width: 100%;
   }
 
+
   .card a{  
     text-decoration: none;
     color: #F2D388;
@@ -245,7 +246,7 @@ form .nav-link:hover{
 
 
 
-  /* -------------------- About us section ---------------------*/
+  /* --------------------Home-About us section ---------------------*/
 
 .trust-head{
     border: #555 solid 5px;
@@ -287,7 +288,7 @@ form .nav-link:hover{
 
 
 
-/*-------------------testimonials--------------- */
+/*-------------------Home testimonials--------------- */
 .client-section .box{
     display: flex;
     flex-direction: column;
@@ -413,7 +414,7 @@ form .nav-link:hover{
 }
 
 
-/* footer section */
+/*---------------footer section--------------*/
 .footer {
     padding: 20px;
     text-align: center;
@@ -435,74 +436,60 @@ form .nav-link:hover{
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------------SHOP PAGE--------------- */
 
-
-
-
-.left-panel{
- height: 200vh;
- text-align: center;
- padding-top: 30px;
- 
- 
+.shop-header{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/shop-hero.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.left-panel ul{
-    list-style-type: none;
-    text-decoration: none;
-    line-height: 50px;
-    font-weight: bold;
-    color: black;  
-    padding-right: 30px;
-    margin-top: 50px;
-}
 
-.left-panel a{
+.shop-categories div a{
     text-decoration: none;
+    text-align: center;  
     color: black;
-    text-align: center;
+    border-bottom: 2px solid #F2D388;  
+    line-height: 2rem;   
 }
 
-.left-panel li:hover{
-    border-bottom: 2px solid #F2D388;
-    border-top: 2px solid #F2D388;
+.shop-categories div a:hover{
+ color: black;
+ border-bottom: 2px solid red; 
+ 
 }
 
-.left-panel img{
-    padding-right: 10px;
-    height: 30rem;
-    width: 13rem;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
 
 .hr-banner-promo{
-    background-color: #555;
+    background-color: rgba(0, 0, 0, 0.61);
     color: #F2D388;
     list-style: none;
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     align-content: center;
     justify-content: space-between;
+    justify-content: space-around;   
+}
+
+.hr-banner-promo a{
+    text-decoration: none;
+    color: #F2D388;
+    font-size: large;
+    border: 1px;
+    border-bottom: 2px solid #F2D388;
+    border-top: 2px solid #F2D388;
+    background-color: rgba(60, 4, 4, 0.504);
+}
+
+.hr-banner-promo a:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
 }
 
 .shop-card{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .shop-card a{
@@ -525,12 +512,72 @@ form .nav-link:hover{
     background-color: rgba(60, 4, 4, 0.504);
 }
 
+                /* ----------------Shop Sub-page------------------ */
+
+                /* ------------Rings------ */
+
+                .ring-header{
+                    min-height: 100vh;
+                    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/ring-model.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                /* ----------Necklace--------- */
+
+                .necklace-header{
+                    min-height: 100vh;
+                    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/necklace-model.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                /* --------Earring-------- */
+                .earring-header{
+                    min-height: 100vh;
+                    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/earring-model.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                /* --------------Bracelet----------- */
+                .bracelet-header{
+                    min-height: 100vh;
+                    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/bracelet-model.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                /* --------------Wedding----------- */
+                .wedding-header{
+                    min-height: 100vh;
+                    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/wedding-model.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                /* --------------Jewelry Set----------- */
+                .set-header{
+                    min-height: 100vh;
+                    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/Set-model.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+
 
 
 
 
 
   /* -------------------------ABOUT US PAGE---------------------- */
+
+  .about-header{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/about-hero.JPG);
+    background-position: center;
+    background-size: cover;
+}
 
 .talk-logo{
     padding-left: 120px;
@@ -548,9 +595,12 @@ form .nav-link:hover{
 
 .about-text{
     font-size: 20px;    
-    padding-left: 20px;
+    text-align: center;
     padding-top: 20px;
+    
 }
+
+
 
 .about-img{
     height: 400px;
@@ -581,17 +631,16 @@ form .nav-link:hover{
 
 .faq-header{
     min-height: 100vh;
-    min-width: 100vh;
     background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/FAQ.jpg);
     background-position: center;
     background-size: cover;
 }
 
-
 .faq-left{
-    height: 170vh;
     text-align: center;
     padding-top: 30px;
+    width: auto;
+    height: auto;
    }
    
 .faq-left ul{
@@ -605,28 +654,30 @@ form .nav-link:hover{
 }
 
 .faq-left li:hover{
-    border-bottom: 2px solid #F2D388;
-    border-top: 2px solid #F2D388;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    background-color: #555;
+    color: #F2D388;
 }
 
    
-.faq-left a{
+.faq-categories div a{
        text-decoration: none;
+       text-align: center;  
        color: black;
-       text-align: center;
+       border-bottom: 2px solid #F2D388;     
 }
 
-.faq-left img{
-        padding-right: 10px;
-        height: 30rem;
-        width: 13rem;
-        margin-top: 20px;
-        margin-bottom: 30px;
-
+.faq-categories div a:hover{
+    color: black;
+    border-bottom: 2px solid red; 
+    font-size: larger;
 }
+
 
 .faq-right{
-    padding-left: 50px;
+    
+    
     background-color:#F0EEED;
 }
 
@@ -638,7 +689,7 @@ form .nav-link:hover{
 
 .tnc-header{
     min-height: 100vh;
-    min-width: 100vh;
+    
     background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/tnc.jpg);
     background-position: center;
     background-size: cover;
@@ -693,12 +744,11 @@ form .nav-link:hover{
 
 .pp-header{
     min-height: 100vh;
-    min-width: 100vh;
+    
     background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/pp.jpg);
     background-position: center;
     background-size: cover;
 }
-
 
 .pp-left{
     height: 200vh;
@@ -739,31 +789,33 @@ form .nav-link:hover{
 
 .pp-right{
     padding-left: 50px;
-    background-color:#F0EEED;
-    height: 200vh;
+    background-color:#F0EEED; 
 }
-
-
-
-
 
 
 
 /* -----------------------Registration Page------------------------- */
 
+.reg-header{
+    min-height: 68vh;
+    background-image:linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)) ,url(images/hero-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .register-left{
     margin-top: 100px;
 }
 
-.reg-input{
-    width: 300px;
+.register-right{
+    padding-left: 70px;
 }
 
 
 
-
-
+.reg-input{
+    width: 300px;
+}
 
 .login-btn a{
     text-decoration: none;
@@ -784,12 +836,6 @@ form .nav-link:hover{
     background-color:rgba(255, 255, 255, 0.086);
     padding: 20px;
 }
-
-
-
-
-
-
 
 
 
