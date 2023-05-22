@@ -96,7 +96,7 @@
                                 </form>
                                 </div>
                             </ul>
-                            </div>
+                          </div>
   
                             <!----------Cart--------------------->
                             <div class="cart-icon">
@@ -110,11 +110,9 @@
         </div>
       </header>
 
-      <div class="container">
-        <div class="row checkout-header bg-dark-subtle">
-
+    <div class="container">
+      <div class="row checkout-header bg-dark-subtle">
         <div class="col-sm-12 col-md-6 col-lg-6 left-check">
-
             <div class="container checkout-container">
                 <h1 class="text-center">Checkout</h1>
                 <form>
@@ -124,7 +122,7 @@
                   <label class="check-form" for="email">Email:</label>
                   <input class="input-select-checkout" type="email" id="email" name="email" required>
 
-                  <label class="check-form" for="number">number:</label>
+                  <label class="check-form" for="number">Number:</label>
                   <input class="input-select-checkout" type="number" id="number" name="number" required>
             
                   <label class="check-form" for="address">Shipping Address:</label>
@@ -150,7 +148,7 @@
             
                   <input type="submit" class="check-btn input-select-checkout" value="Place Order">
                 </form>
-              </div>
+            </div>
         </div>
 
         <div class="col-sm-12 col-md-6 col-lg-6 right-check">
@@ -173,37 +171,41 @@
                 <div class="container">
                     <input type="radio" id="credit-card" name="fav_language" value="credit-card"><label for="credit-card">&nbsp Credit Card</label><br><span><i class="fa-brands fa-cc-visa display-5">&nbsp</i></span><span><i class="fa-brands fa-cc-mastercard display-5">&nbsp</i></span><span><i class="fa-brands fa-cc-paypal display-5"></i></span>
                     <p>Pay your credit card via Authorize.Net</p>
-                    <p>Card Number* <span>Card Code*</span></p>
-                    <input type="password" name="" id="" placeholder="      xxxx-xxxx-xxxx-xxxx">
                 </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <p> </p>
-                            <label for="card-code">Expity Date*</label><br>
-                            <input type="password" name="" id="card-code" placeholder="     xxxx-xxxx-xxxx-xxxx">
-                        </div>
-                       
-                        <div class="col">
-                            <label for="card-code">Card Code*</label><br>
-                            <input type="number" name="" id="card-code" placeholder="    CVC">
-                        </div>
+              <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-6">
+                      <label for="card-code">Card Number*</label>
+                      <input type="password" name="" id="" placeholder="    xxxx-xxxx-xxxx-xxxx">
                     </div>
+                    &nbsp
+                    <div class="col-sm-12 col-md-3 col-lg-6">                        
+                        <label for="card-code">Expity Date*</label>
+                        <input type="password" name="" id="card-code" placeholder="   xxxx-xxxx-xxxx-xxxx">
+                    </div>
+                    &nbsp
+                    <div class="col-sm-12 col-md-3 col-lg-6">
+                        <label for="card-code">Card Code*</label>
+                        <br>
+                        <input type="number" name="" id="card-code" placeholder=" CVC">
+                    </div> 
+                                         
                 </div>
-               
-                <br>
-
+            </div>
+        </div>
+              
+              
+              <div class="container">
                 <input type="checkbox" id="data" name="data" value="Personal-data">
                 <label for="data">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="tnc.html">Terms & Conditions </a>and<a href="pp.html"> Privacy Policy.</a></label><br>
                 <br>
                 <input type="checkbox" id="emails" name="emails" value="emails">
                 <label for="emails"> I would like to recieve referral marketing and promotional emails (optional)</label><br>
-
-            </div>
-        </div>
+              </div>
       </div>
     </div>
+     
 
 
 
